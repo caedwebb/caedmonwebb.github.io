@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<!--Head-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Caedmon Webb</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+</head>
+
+<!--Body-->
+
+<body class="Background">
+    <!--Navbar-->
+    <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+    <!--Background video-->
+    <div>
+    <div id="Home">
+        <div>
+            <video autoplay muted loop id="Portfolio_Strip">
+                <source src="images/video/portfolio_strip.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+        <!--Video text-->
+        <div class="Video_Text">
+            <strong>
+                <h1 class="white-text">Caedmon Webb</h1>
+                <p class="center">
+                    <q>Players will do whatever the game incentivises them to do,
+                        <br>whether or not that thing is fun.
+                        <br><br>The goal of a game designer is to make the incentives move the players
+                        <br>towards the parts of the game that are fun.
+                    </q> 
+                    <br>
+                    <br><span align-right>-Mark Rosewater</span>
+                    <br>
+                    <br>My name is Caedmon Webb. I have 15 years experience in gaming as
+                    <br>a tester, producer, consultant, and designer.
+                </p>
+            </strong>
+        </div>
+    </div>
+    
+    <br>
+
+    <!--About section-->
+    <div>
+    <div class="Row" id="About" position=>
+        <!--Left column-->
+        <div class="Column_2">
+            <img src="images/Halls_of_Greed_PvE.gif" alt="PvE gameplay from Halls of Greed">
+        </div>
+        <!--Right column-->
+        <div class="Column_1">
+            <h1>About</h1>
+            <p>
+                I am a game designer with 15 years experience in the industry. I started my career in AAA before
+                shifting consulting and indie development.
+                <br>
+                <br>I am also a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech
+                    Academy</a>’s Game Programming Boot Camp, with fluency in HTML/CSS, JS, C#, C++ and more.
+                <br>
+                <br>I am available for contract work and would love to collaborate on your project. <a href="#Contact">Contact</a> me below!
+            </p>
+        </div>
+    </div>
+
+    <!--GitHub section-->
+    <div class="Row" id="GitHub">
+        <!--Left column-->
+        <div class="Column_1">
+            <h1>RECENT WORK</h1>
+            <p class="center">
+                You can view my coding projects on my GitHub profile here:
+            <br>
+            <p class="center"><a href="https://github.com/caedwebb" target="_blank">Github Profile Link</a>
+            </p>
+            </p>
+            <p class="center">
+                You can view my recent game projects here:
+            <br>
+            <p class="center"><a href="https://linktr.ee/caedmonwebb" target="_blank">Game Project Linktree</a>
+            </p>
+            </p>
+        </div>
+        <!--Right column-->
+        <div class="Column_2">
+            <a href="https://github.com/the-tech-academy" target="_blank"><img src="images/GitHub.png"
+                    alt="GitHub Logo"></a>
+        </div>
+    </div>
+
+    <!--Contact section-->
+    <div class="Row" id="Contact">
+        <!--Contact image, left column-->
+        <div class="Column_2 Column_tall">
+            <img src="images/PsmediaThumb.webp" alt="Contact_Image">
+        </div>
+        <!--Contact form, right column-->
+        <div class="Column_1 Column_tall">
+            <h1>Contact</h1>
+            <!--This specifies where and how to send the form data; we are leaving it blank-->
+            <form action="" method="POST">
+                <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                <label>Name:</label>
+                <input type="text" placeholder="Please enter your name here">
+                <label>Email:</label>
+                <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                <label>Message:</label>
+                <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+</div>
+    </div>
+    <!--Footer section-->
+    <footer>
+        <p>
+        <p class="center">&copy Caedmon Webb</p>
+        <br>
+        </p>
+    </footer>
+</body>
+
+</html>
